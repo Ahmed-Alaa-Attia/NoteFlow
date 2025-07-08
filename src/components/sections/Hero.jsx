@@ -61,11 +61,11 @@ const Hero = () => {
               "drop-shadow(0 0 10px var(--color-primary-glow))",
             ],
           }}
-          exit={{ opacity: 0, y: 20 }}
+          exit={{ opacity: 0, y: 10 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{
             opacity: { duration: 0.8, ease: "easeInOut", delay: 0.6 },
-            y: { duration: 0.8, ease: "easeInOut", delay: 0.6 },
+            y: { duration: 0.8, ease: "easeInOut", delay: 0.12 },
             filter: {
               duration: 3.5,
               ease: "easeInOut",
