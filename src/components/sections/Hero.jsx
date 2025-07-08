@@ -19,9 +19,9 @@ const Hero = () => {
       <div>
         <div className="overflow-hidden">
           <motion.h1
-            initial={{ y: -100, opacity: 0 }}
+            initial={{ y: -10, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            exit={{ y: -100, opacity: 0 }}
+            exit={{ y: -10, opacity: 0 }}
             viewport={{ once: false, amount: "100%" }}
             transition={{
               duration: 0.8,
